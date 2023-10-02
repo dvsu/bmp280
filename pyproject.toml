@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bmp280"
+version = "0.1.0"
+description = "Python-based driver for Bosch BMP280 digital pressure sensor"
+authors = ["Dave <55182282+dvsu@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+smbus2 = "^0.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
